@@ -162,7 +162,7 @@ def login1():
             return render_template('incorrect_username.html')
 
     return render_template('first_login.html')
-
+# on pourrait réaliser plusieurs tests pour vérifier la compatibilité des fichiers, concernant notamment le nom des fichiers, le nombre des colonnes, et la nature des colonnes.
 
 # permet à l'utilisateur de se connecter (même fonction que la précédente à l'exception qu'elle ne crée pas la base de données)
 @app.route('/login', methods=['GET', 'POST'])
